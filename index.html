@@ -190,6 +190,16 @@
     .content li::marker { color: var(--accent); }
     .content strong { color: var(--heading); font-weight: 600; }
 
+    .callout {
+      background: var(--accent-soft);
+      border: 1px solid rgba(124, 140, 255, 0.35);
+      border-left-width: 3px;
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      margin: 0 0 16px;
+    }
+    .callout p:last-child { margin-bottom: 0; }
+
     .contact-strip {
       display: flex;
       flex-wrap: wrap;
@@ -244,7 +254,7 @@
       or otherwise interact with our services (collectively, the "Services").
     </p>
     <div class="doc-meta mono">
-      <div><span class="k">Last updated</span><span class="v">September 28, 2026</span></div>
+      <div><span class="k">Last updated</span><span class="v">October 6, 2026</span></div>
       <div><span class="k">Applies to</span><span class="v">All Ascendrix Studio apps &amp; games</span></div>
       <div><span class="k">Contact</span><span class="v"><a href="mailto:ascendrixstudio1@gmail.com">ascendrixstudio1@gmail.com</a></span></div>
     </div>
@@ -255,14 +265,16 @@
       <h2>Index</h2>
       <ol>
         <li><a href="#information-we-collect"><span class="idx mono">01</span><span>Information We Collect</span></a></li>
-        <li><a href="#how-we-use"><span class="idx mono">02</span><span>How We Use Your Information</span></a></li>
-        <li><a href="#disclosure"><span class="idx mono">03</span><span>Disclosure Of Information</span></a></li>
-        <li><a href="#retention"><span class="idx mono">04</span><span>Data Retention</span></a></li>
-        <li><a href="#your-rights"><span class="idx mono">05</span><span>Your Rights &amp; Choices</span></a></li>
-        <li><a href="#security"><span class="idx mono">06</span><span>Security</span></a></li>
-        <li><a href="#children"><span class="idx mono">07</span><span>Children's Privacy</span></a></li>
-        <li><a href="#changes"><span class="idx mono">08</span><span>Changes To This Policy</span></a></li>
-        <li><a href="#contact"><span class="idx mono">09</span><span>Contact Us</span></a></li>
+        <li><a href="#platform-data"><span class="idx mono">02</span><span>Meta Horizon Platform Data</span></a></li>
+        <li><a href="#how-we-use"><span class="idx mono">03</span><span>How We Use Your Information</span></a></li>
+        <li><a href="#disclosure"><span class="idx mono">04</span><span>Disclosure Of Information</span></a></li>
+        <li><a href="#retention"><span class="idx mono">05</span><span>Data Retention</span></a></li>
+        <li><a href="#deletion"><span class="idx mono">06</span><span>Deleting Your Data</span></a></li>
+        <li><a href="#your-rights"><span class="idx mono">07</span><span>Your Rights &amp; Choices</span></a></li>
+        <li><a href="#security"><span class="idx mono">08</span><span>Security</span></a></li>
+        <li><a href="#children"><span class="idx mono">09</span><span>Children's Privacy</span></a></li>
+        <li><a href="#changes"><span class="idx mono">10</span><span>Changes To This Policy</span></a></li>
+        <li><a href="#contact"><span class="idx mono">11</span><span>Contact Us</span></a></li>
       </ol>
     </nav>
 
@@ -273,63 +285,132 @@
         <p>We collect information in the following ways when you use our Services:</p>
         <h3>Information you provide to us</h3>
         <ul>
-          <li><strong>Account information</strong> — such as your name, username, and email address when you register for an account, sign in, or contact our support team.</li>
-          <li><strong>Purchase information</strong> — details related to in-game purchases or subscriptions, processed securely through the relevant app store or payment provider.</li>
-          <li><strong>Communications</strong> — messages, feedback, or bug reports you send us.</li>
+          <li><strong>Communications</strong> — messages, feedback, support enquiries, or bug reports you send us, including the email address you send them from.</li>
+          <li><strong>Purchase requests</strong> — when you choose to buy additional in-app content, your purchase is initiated and processed by the platform store (such as the Meta Horizon Store). We do not receive or store your payment card details.</li>
         </ul>
         <h3>Information collected automatically</h3>
         <ul>
-          <li><strong>Usage data</strong> — IP address, device model, operating system and version, language settings, and general device specifications.</li>
+          <li><strong>Device and usage data</strong> — device model, operating system and version, language settings, and general device specifications.</li>
           <li><strong>In-app analytics</strong> — gameplay metrics such as session counts, session length, retention, installs, and daily/monthly active users, used to understand how our games are played.</li>
           <li><strong>Crash and diagnostic data</strong> — used to identify and fix technical issues.</li>
         </ul>
       </section>
 
+      <section id="platform-data">
+        <h2><span class="num">02</span>Meta Horizon Platform Data</h2>
+        <p>
+          Our applications are distributed through the Meta Horizon Store and use Meta platform features.
+          Where you use our Services on a Meta device or through a Meta account, we access the following
+          data from Meta:
+        </p>
+        <ul>
+          <li>
+            <strong>User ID</strong> — a unique identifier provided by Meta for your account. We use it
+            solely to confirm that your copy of the application is validly licensed, and to associate any
+            additional content you have purchased with your account so it remains available to you. We do
+            not use it for advertising, and we do not combine it with data from other sources.
+          </li>
+          <li>
+            <strong>In-app purchases and downloadable content</strong> — your entitlement records, meaning
+            the list of additional in-app items you have purchased. We use this only to unlock the content
+            you have paid for and to restore it when you reinstall or sign in on another device.
+          </li>
+        </ul>
+        <p>
+          We do not access your Meta profile name, profile photo, friends list, age group, or any other
+          Meta platform data beyond the two items listed above.
+        </p>
+      </section>
+
       <section id="how-we-use">
-        <h2><span class="num">02</span>How We Use Your Information</h2>
+        <h2><span class="num">03</span>How We Use Your Information</h2>
         <p>We use the information we collect to:</p>
         <ul>
           <li>Operate, maintain, and improve our games and applications.</li>
-          <li>Communicate with you about your account, purchases, subscriptions, updates, or support requests.</li>
-          <li>Personalize your experience and understand how our Services are used.</li>
+          <li>Deliver and restore the in-app content you have purchased.</li>
+          <li>Respond to your support requests and communications.</li>
+          <li>Understand how our Services are used so that we can improve them.</li>
           <li>Detect, investigate, and prevent fraud, abuse, or security incidents.</li>
           <li>Comply with applicable legal obligations and enforce our terms.</li>
         </ul>
+        <p>We do not use your information for advertising, and we do not sell your personal information.</p>
       </section>
 
       <section id="disclosure">
-        <h2><span class="num">03</span>Disclosure Of Information</h2>
+        <h2><span class="num">04</span>Disclosure Of Information</h2>
         <p>We do not sell your personal information. We may share information only in the following circumstances:</p>
         <ul>
           <li><strong>With your consent</strong> — when you have explicitly agreed to the sharing.</li>
-          <li><strong>Service providers</strong> — trusted third parties (such as hosting, analytics, and payment processors) who are contractually bound to protect your information and use it only to provide services to us.</li>
+          <li><strong>Service providers</strong> — trusted third parties (such as hosting, analytics, and platform store operators) who are contractually bound to protect your information and use it only to provide services to us.</li>
           <li><strong>Legal requirements</strong> — when required to comply with applicable law, regulation, legal process, or a valid governmental request.</li>
           <li><strong>Business transfers</strong> — in connection with a merger, acquisition, or sale of assets, subject to this Privacy Policy.</li>
         </ul>
       </section>
 
       <section id="retention">
-        <h2><span class="num">04</span>Data Retention</h2>
+        <h2><span class="num">05</span>Data Retention</h2>
         <p>
-          We retain personal information for as long as necessary to provide our Services, comply with our
-          legal obligations, resolve disputes, and enforce our agreements. When information is no longer
-          needed for these purposes, we take reasonable steps to delete or anonymize it.
+          We retain personal information only for as long as necessary to provide our Services, comply with
+          our legal obligations, resolve disputes, and enforce our agreements. When information is no longer
+          needed for these purposes, we delete or anonymize it.
+        </p>
+        <p>
+          Where you ask us to delete your data, we act on that request regardless of how long we would
+          otherwise have kept it. See <a href="#deletion">Deleting Your Data</a> below.
+        </p>
+      </section>
+
+      <section id="deletion">
+        <h2><span class="num">06</span>Deleting Your Data</h2>
+        <div class="callout">
+          <p>
+            <strong>Every user may request deletion of their personal data, at any time, free of charge,
+            without giving a reason.</strong>
+          </p>
+          <p>
+            This right is available to <strong>all users worldwide</strong>. It is not limited by your
+            country, region, place of residence, nationality, or by whether any particular data protection
+            law applies to you. There are no exceptions based on geographic location.
+          </p>
+        </div>
+        <h3>How to request deletion</h3>
+        <p>
+          Email <a href="mailto:ascendrixstudio1@gmail.com">ascendrixstudio1@gmail.com</a> with the subject
+          line <strong>"Data Deletion Request"</strong>. You do not need an account with us to make a
+          request, and you do not need to explain why.
+        </p>
+        <h3>What happens next</h3>
+        <ul>
+          <li>We will acknowledge your request and may ask for information needed only to identify the data in question.</li>
+          <li>We will delete the data within <strong>30 days</strong> of receiving your request.</li>
+          <li>We will confirm by email once the deletion is complete.</li>
+          <li>We will not charge you, and we will not require you to create an account to make a request.</li>
+        </ul>
+        <p>
+          Please note that purchase and entitlement records held by the platform store (for example, the
+          Meta Horizon Store) are controlled by that platform rather than by us. We will delete our own
+          copies of your data; to remove records held by the store itself, please contact the store operator
+          directly.
         </p>
       </section>
 
       <section id="your-rights">
-        <h2><span class="num">05</span>Your Rights &amp; Choices</h2>
+        <h2><span class="num">07</span>Your Rights &amp; Choices</h2>
         <p>
-          Depending on your location, you may have the right to access, correct, export, or delete your
-          personal information, or to object to or restrict certain processing. To exercise any of these
-          rights, including requesting deletion of your data, please contact us at
-          <a href="mailto:ascendrixstudio1@gmail.com">ascendrixstudio1@gmail.com</a>. We will respond to verified
-          requests within a reasonable timeframe and as required by applicable law.
+          In addition to deletion, all users may ask us to access, correct, or export a copy of their
+          personal information, or to object to or restrict certain processing. These rights are available
+          to every user regardless of location.
+        </p>
+        <p>
+          To exercise any of these rights, contact us at
+          <a href="mailto:ascendrixstudio1@gmail.com">ascendrixstudio1@gmail.com</a>. We will respond within
+          30 days. Where local law grants you additional rights beyond those described here, those rights
+          also apply to you — nothing in this policy is intended to limit them.
         </p>
       </section>
 
       <section id="security">
-        <h2><span class="num">06</span>Security Of Your Information</h2>
+        <h2><span class="num">08</span>Security Of Your Information</h2>
         <p>
           We implement reasonable administrative, technical, and physical safeguards designed to protect
           your information from unauthorized access, disclosure, alteration, or destruction. However, no
@@ -339,18 +420,18 @@
       </section>
 
       <section id="children">
-        <h2><span class="num">07</span>Children's Privacy</h2>
+        <h2><span class="num">09</span>Children's Privacy</h2>
         <p>
-          Our Services are not directed to children under the age of 13 (or the relevant age of digital
-          consent in your region), and we do not knowingly collect personal information from children.
-          If we become aware that we have inadvertently collected such information, we will take steps to
-          delete it promptly. If you believe a child has provided us with personal information, please
-          contact us at <a href="mailto:ascendrixstudio1@gmail.com">ascendrixstudio1@gmail.com</a>.
+          Our Services are not directed to children under the age of 13, and we do not knowingly collect
+          personal information from children under 13. If we become aware that we have inadvertently
+          collected such information, we will delete it promptly. If you believe a child has provided us
+          with personal information, please contact us at
+          <a href="mailto:ascendrixstudio1@gmail.com">ascendrixstudio1@gmail.com</a>.
         </p>
       </section>
 
       <section id="changes">
-        <h2><span class="num">08</span>Changes To This Policy</h2>
+        <h2><span class="num">10</span>Changes To This Policy</h2>
         <p>
           We may update this Privacy Policy from time to time to reflect changes in our practices or for
           other operational, legal, or regulatory reasons. Any changes will take effect immediately upon
@@ -360,7 +441,7 @@
       </section>
 
       <section id="contact">
-        <h2><span class="num">09</span>Contact Us</h2>
+        <h2><span class="num">11</span>Contact Us</h2>
         <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please reach out to us:</p>
         <div class="contact-strip">
           <span class="label">Email</span>
